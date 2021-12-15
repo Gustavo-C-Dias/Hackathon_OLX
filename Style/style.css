@@ -1,0 +1,137 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 400px;
+}
+
+h1 {
+    width: 400px;
+    margin: 7px 0 0 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: blueviolet;
+}
+
+h3 {
+    width: 400px;
+    margin: 2px 0 0 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13.5px;
+    text-align: center;
+    color: rgb(161, 161, 161); 
+}
+
+div#Concientizacao {
+    width: 400px;
+    display: block;
+}
+
+div h4.titulo{
+    margin: 5px 0 0 0 ;
+    font-size: 15px;
+    width: 10px;
+}
+
+main {
+    display: block;
+}
+
+main div.Anuncio {
+    display: flex;
+}
+
+.img{
+    background-color: blueviolet;
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+    margin: 15px 10px 15px 7px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-position: center;
+}
+
+.img > img{
+    width: 100%;
+    height: 100%;
+}
+
+main div div.dadosAnuncio {
+    display: block;
+}
+
+main div h4 {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 0 0 0;
+}
+
+main div p{
+    width: 270px;
+    margin: 0;
+}
+
+button {
+    background-color: blueviolet;
+    border-radius: 7px;
+    width: 260px;
+    height: 30px;
+    color: white;
+    margin: 10px 0 0 0;
+    border: none;
+    transition: 0.3s;
+    font-size: 15;
+    font-weight: 700;
+    cursor:pointer;
+}
+
+  button:hover {
+    transform: scale(1.02);
+    background-color: rgb(119, 28, 204);
+  }
+
+footer {
+    align-items: center;
+}
+
+footer img{
+    width: 90px;
+    margin: 0 0 10px 160px;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(196, 196, 196); 
+    border-radius: 15px;  
+  }
+
+div div p.titulo{
+    font-style: oblique;
+    color: #6e0ad6ff;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#myChart {
+    width: 100%;
+    height: 230px;
+    margin-top: 7px;
+    background-image: url(../Assets/Grafico_Exemplo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main p.textoProduto{
+    padding-top: 10px;
+    font-size: 16px;
+    margin: 0px 10px 0 10px;
+    border-top: 1px dashed rgb(190, 190, 190);
+}
